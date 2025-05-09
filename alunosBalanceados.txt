@@ -1,0 +1,11 @@
+10
+5;Beatriz Uchoa;1.75
+2;Geraldo Yamaguchi;6.56
+1;Osvaldo Farias;2.31
+3;Pamela Queiroz;2.79
+4;Jaqueline Espíndola;0.84
+8;Vinícius Borges;1.43
+6;Saulo Duarte;7.03
+7;Larissa Weber;1.76
+9;Helena Zanetti;3.62
+10;Caio Ishikawa;2.20
