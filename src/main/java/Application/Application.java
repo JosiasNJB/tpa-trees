@@ -15,7 +15,7 @@ import java.io.IOException;
 
 public class Application {
 
-    private static final String NOME_ARQUIVO1 = "jogosOrdenados.txt";
+    private static final String NOME_ARQUIVO1 = "jogosBalanceados.txt";
 
     public static void main(String[] args) {
 
@@ -26,9 +26,9 @@ public class Application {
         //Instancio um comparador de jogos por idJogo e titulo
         ComparadorJogoPorIdJogo compPorIdJogo = new ComparadorJogoPorIdJogo();
         ComparadorJogoPorTitulo compPorTitulo = new ComparadorJogoPorTitulo();
-        IArvoreBinaria<Jogo> arvMatDegenerada, arvTituloDegenerada, arvMatBalanceada, arvTituloBalanceada;
+        IArvoreBinaria<Jogo> arvIdDegenerada, arvTituloDegenerada;
 
-        arvMatDegenerada = new ArvoreBinaria(compPorIdJogo);
+        arvIdDegenerada = new ArvoreBinaria(compPorIdJogo);
         arvTituloDegenerada = new ArvoreBinaria(compPorTitulo);
 
         //Faz o try-catch para a leitura do txt, se funcionando adiciona as informações em jogo e depois na arvore degenerada
@@ -45,7 +45,7 @@ public class Application {
                 String titulo = partes[1];
                 float nota = Float.parseFloat(partes[2]);
 
-                arvMatDegenerada.adicionar(new Jogo(idJogo, titulo));
+                arvIdDegenerada.adicionar(new Jogo(idJogo, titulo));
                 arvTituloDegenerada.adicionar(new Jogo(idJogo, titulo));
             }
 
@@ -112,7 +112,7 @@ public class Application {
                         String titulo = s.nextLine();
 
                         if (opcaoMenuAdicionar.equals("1")) {
-                            arvMatDegenerada.adicionar(new Jogo(idJogo, titulo));
+                            arvIdDegenerada.adicionar(new Jogo(idJogo, titulo));
                             System.out.println("Jogo adicionado na arvore degenerada por idJogo");
                         }
 
@@ -176,7 +176,7 @@ public class Application {
                                     }
                                 }
 
-                                resultado = arvMatDegenerada.pesquisar(new Jogo(idJogo, ""));
+                                resultado = arvIdDegenerada.pesquisar(new Jogo(idJogo, ""));
 
                                 if (resultado == null) {
                                     System.out.println("Jogo não encontrado");
@@ -257,7 +257,7 @@ public class Application {
                                         }
 
                                         if (opcaoMenuPesquisarArvore.equals("1")) {
-                                            resultado = arvMatDegenerada.pesquisar(new Jogo(idJogo, ""), compPorIdJogo);
+                                            resultado = arvIdDegenerada.pesquisar(new Jogo(idJogo, ""), compPorIdJogo);
 
                                         }
 
@@ -301,7 +301,7 @@ public class Application {
                                         String titulo = s.nextLine();
 
                                         if (opcaoMenuPesquisarArvore.equals("1")) {
-                                            resultado = arvMatDegenerada.pesquisar(new Jogo(0, titulo), compPorTitulo);
+                                            resultado = arvIdDegenerada.pesquisar(new Jogo(0, titulo), compPorTitulo);
 
                                         }
 
@@ -360,7 +360,7 @@ public class Application {
                             }
                         }
 
-                        arvMatDegenerada.remover(new Jogo(idJogo, ""));
+                        arvIdDegenerada.remover(new Jogo(idJogo, ""));
 
                     }
 
@@ -397,7 +397,7 @@ public class Application {
                     if (opcaoMenuCaminhoOrdem.equals("1") || opcaoMenuCaminhoOrdem.equals("2")) {
 
                         if (opcaoMenuCaminhoOrdem.equals("1")) {
-                            resultado = arvMatDegenerada.caminharEmOrdem();
+                            resultado = arvIdDegenerada.caminharEmOrdem();
 
                         }
 

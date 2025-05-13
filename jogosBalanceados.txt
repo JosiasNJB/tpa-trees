@@ -1,0 +1,11 @@
+10
+5;Alma da Promessa;1.39
+2;Julgamento da Guerra;7.00
+1;Espada da Guerra;0.29
+3;Viagem Perdido;8.62
+4;Olhos do Labirinto;4.24
+8;Sombras da Salvação;3.81
+6;Vigília de Prata;9.94
+7;Eco de Fogo;2.16
+9;Ouro do Silêncio;7.56
+10;Refúgio do Coração;8.24

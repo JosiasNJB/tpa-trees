@@ -5,7 +5,24 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f29d38ad-ed68-4218-bbea-7c11998eeda6" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/src/main/java/lib/ArvoreBinaria.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/lib/ArvoreBinaria.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/alunosBalanceados.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/alunosOrdenados.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Application/Application.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Application/Application.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Model/Geradores/GeradorArquivosOrdenados.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Application/Application.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Application/Application.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Model/Comparadores/ComparadorJogoPorIdJogo.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Model/Comparadores/ComparadorJogoPorIdJogo.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Model/Comparadores/ComparadorJogoPorTitulo.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Model/Comparadores/ComparadorJogoPorTitulo.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Model/Geradores/GeradorArquivosBalanceados.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Model/Geradores/GeradorArquivosBalanceados.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Model/Geradores/GeradorArquivosOrdenados.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Model/Geradores/GeradorDeArvores.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Model/Geradores/GeradorDeArvores.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Model/Jogo.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Model/Jogo.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Test/AppRelatorioArvoreBinaria.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Test/AppRelatorioArvoreBinaria.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/lib/ArvoreAVL.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/lib/ArvoreAVL.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/lib/ArvoreBinaria$Remocao.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/lib/ArvoreBinaria$Remocao.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/lib/ArvoreBinaria.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/lib/ArvoreBinaria.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/lib/IArvoreBinaria.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/lib/IArvoreBinaria.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/lib/NoArvore.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/lib/NoArvore.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -23,6 +40,9 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 0
 }</component>
@@ -33,10 +53,14 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "Application.Application.executor": "Run",
+    "Application.GeradorArquivosBalanceados.executor": "Run",
+    "Application.GeradorArquivosOrdenados.executor": "Run",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "tree",
+    "git-widget-placeholder": "main",
     "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "/home/dev/projects/study/university/5th period/Técnicas de Programação Avançada (TPA)/TPA-trees",
+    "last_opened_file_path": "C:/Users/20231bsi0295/Documents/GitHub/tpa-trees",
     "project.structure.last.edited": "Modules",
     "project.structure.proportion": "0.0",
     "project.structure.side.proportion": "0.0"
